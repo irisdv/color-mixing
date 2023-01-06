@@ -1,0 +1,6 @@
+scripts/
+build/
+.protostar_cache/
+.env
+.DS_Store
+```

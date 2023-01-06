@@ -1,0 +1,18 @@
+[project]
+protostar-version = "0.9.0"
+lib-path = "lib"
+cairo-path = ["lib", "./lib"]
+
+[contracts]
+mix = ["src/mix.cairo"]
+data1 = ["src/data/data1.cairo"]
+data2 = ["src/data/data2.cairo"]
+data3 = ["src/data/data3.cairo"]
+data4 = ["src/data/data4.cairo"]
+data5 = ["src/data/data5.cairo"]
+proxy = ["./lib/openzeppelin/upgrades/presets/Proxy.cairo"]
+
+[format]
+target = ["contracts", "tests"]
+ignore-broken = true  
+
